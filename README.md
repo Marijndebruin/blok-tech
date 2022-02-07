@@ -1,2 +1,2 @@
 # blok-tech
-Blok-tech marijn de bruin
+Dit is de repository voor Blok-tech van Marijn de Bruin
