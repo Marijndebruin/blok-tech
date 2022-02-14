@@ -1,8 +1,11 @@
 ### npm init
 
+---
 
 ### npm install
 Installeert alle packages installen in de package.json
+
+---
 
 ### npm install (naam)
 Installeert een package
