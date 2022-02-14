@@ -4,12 +4,14 @@
   "description": "Mijn project tech",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "author": "Marijn de Bruin",
   "license": "GNU",
   "dependencies": {
-    "express": "^4.17.2",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.15"
   }
 }
