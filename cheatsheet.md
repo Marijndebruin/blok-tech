@@ -1,22 +1,26 @@
-npm init
+### npm init
 
 
-npm install
+### npm install
 Installeert alle packages installen in de package.json
 
-npm install (naam)
+### npm install (naam)
 Installeert een package
 
-npm start
+### npm start
 start de script in de package.json
 
-CD (folder)  omhoog = ../
+
+### CD (folder)  omhoog = ../
 Change directory 
 
-Ls
+
+### Ls
 List
 
-Ls -a
 
-PWD
+### Ls -a
+
+
+### PWD
 print working directory
