@@ -9,7 +9,7 @@
 ### npm install
 Installeert alle packages installen in de package.json
 
-npm install nodemon --save-dev
+### npm install nodemon --save-dev
 ---
 
 ### npm install (naam)
