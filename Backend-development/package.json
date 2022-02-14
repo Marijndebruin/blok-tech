@@ -7,7 +7,7 @@
     "start": "node index.js"
   },
   "author": "Marijn de Bruin",
-  "license": "ISC",
+  "license": "GNU",
   "dependencies": {
     "express": "^4.17.2",
     "nodemon": "^2.0.15"
