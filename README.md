@@ -22,3 +22,6 @@ Mijn concept is een app voor huisdier zoekende gebruikers. Ze kunnen een zoekopd
 *	Filter aanmaken voor matchen
 *	Push melding
 *	Chat / vraag formulier
+
+# License 
+Ik heb gekozen voor de GNU license. Deze license is een open source license.
