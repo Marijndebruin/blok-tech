@@ -1,22 +1,50 @@
-npm init
+# Commands cheatsheet
 
+---
 
-npm install
+### npm init
+
+---
+
+### npm install
 Installeert alle packages installen in de package.json
 
-npm install (naam)
+### npm install nodemon --save-dev
+Installeert alleen voor dev
+---
+
+### npm install (naam)
 Installeert een package
 
-npm start
+---
+
+### npm start
 start de script in de package.json
 
-CD (folder)  omhoog = ../
+---
+
+### CD (folder)  omhoog = ../
 Change directory 
 
-Ls
+---
+
+### Ls
 List
 
-Ls -a
+---
 
-PWD
+### Ls -a
+
+---
+
+### PWD
 print working directory
+
+---
+
+### node (naam)
+Start het .js bestand
+
+---
+
+
