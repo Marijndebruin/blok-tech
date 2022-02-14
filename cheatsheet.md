@@ -47,4 +47,42 @@ Start het .js bestand
 
 ---
 
+### Git clone URL
 
+---
+
+### Git Add
+
+---
+
+### Git Commit  -m (bericht)
+
+---
+
+### Git Push
+
+---
+
+### Git Pull
+
+---
+
+### App.get
+app is variable
+
+---
+
+### App.lisent
+Start de app op een port
+
+---
+
+### App.use
+Voor static folder en 404 pagina
+
+---
+
+###Res.send
+###Res.Render
+###Res.Params
+---
