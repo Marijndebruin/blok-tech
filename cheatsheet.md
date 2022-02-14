@@ -33,3 +33,12 @@ List
 
 ### PWD
 print working directory
+
+---
+
+### node (naam)
+Start het .js bestand
+
+---
+
+
