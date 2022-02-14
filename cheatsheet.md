@@ -10,6 +10,7 @@
 Installeert alle packages installen in de package.json
 
 ### npm install nodemon --save-dev
+Installeert alleen voor dev
 ---
 
 ### npm install (naam)
