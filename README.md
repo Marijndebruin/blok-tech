@@ -6,16 +6,16 @@ Mijn concept is een app voor huisdier zoekende gebruikers. Ze kunnen een zoekopd
 
 ## Job stories
 
-Wanneer ik mijn zoek profiel heb gemaakt wil ik huisdieren vinden die bij mijn match passen. Zodat ik makkelijker mijn nieuwe huisdier kan vinden.
+* Wanneer ik mijn zoek profiel heb gemaakt wil ik huisdieren vinden die bij mijn match passen. Zodat ik makkelijker mijn nieuwe huisdier kan vinden.
 
-Wanneer een huisdier bij mijn match past, wil ik een melding krijgen. Zodat ik kan reageren
+* Wanneer een huisdier bij mijn match past, wil ik een melding krijgen. Zodat ik kan reageren
 
-Wanneer ik interrese heb, wil ik een vraag kunnen stellen. Zodat ik meer informatie kan krijgen over het huisdier.
+* Wanneer ik interrese heb, wil ik een vraag kunnen stellen. Zodat ik meer informatie kan krijgen over het huisdier.
 
 
 ### Huisdier Job stories
 
-Wanneer ik mij wil aanmelden wil ik informatie en fotos willen toevoegen zodat ik gevonden kan worden.
+* Wanneer ik mij wil aanmelden wil ik informatie en fotos willen toevoegen zodat ik gevonden kan worden.
 
 ## Requirement list
 
