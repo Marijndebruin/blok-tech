@@ -19,6 +19,6 @@ Mijn concept is een app voor huisdier zoekende gebruikers. Ze kunnen een zoekopd
 
 ## Requirement list
 
-•	Filter aanmaken voor matchen
-•	Push melding
-•	Chat / vraag formulier
+*	Filter aanmaken voor matchen
+*	Push melding
+*	Chat / vraag formulier
