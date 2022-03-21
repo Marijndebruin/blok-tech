@@ -1,6 +1,101 @@
 :root {
-    --body
+    /* --body
     --primairy
-    --secundairy: #;
-    --muted: #333;
+    --secundairy: #; */
+    --muted: #898989;
+    --black: #000;
+    --color-background: #F5F5F5;
+    --color-alert: #fc6d73;
+    --color-succes: #19c3b1;
+    --color-blue-dark: #227c9d;
+    --color-yellow: #ffca53;
+    --color-yellow-dark: #EFBC49;
+    --color-white: #ffffff;
+    --button-gradient-blue: linear-gradient(45deg, rgba(25,195,177,1) 0%, rgba(34,124,157,1) 100%);  
+    --button-gradient-yellow: linear-gradient(45deg, rgba(255,202,83,1) 0%, rgba(252,109,115,1) 100%); 
+    --shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    --shadow-top: rgba(0, 0, 0, 0.1) 0px -10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: var(--muted);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 375px; /* Max width van iphone 13 max*/
+    max-height: 667px;
+}
+
+main {
+    background-color: var(--color-background);
+    margin-left: auto;
+    margin-right: auto;
+    width: 375px; /* Max width van iphone 13 max*/
+    height: 667px;
+    position: absolute;
+}
+
+h1 {
+    margin-top: 0.5em;
+}
+
+a {  
+    text-decoration: none;
+    color: var(--black);
+}
+
+
+button {
+    background: var(--button-gradient-blue);
+    color: #ffffff;
+    padding: 16px 64px;
+    border-radius: 20em;
+    border: none;
+    font-weight: 600;
+    margin-top: 2em;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.25s;
+}
+
+button:hover{
+    border: var(--color-white) 5px ;
+    transform: scale(1.1);
+}
+
+nav {
+    z-index: 10;
+    background-color: var(--color-white);
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    box-shadow: var(--shadow-top);
+    
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    height: 40px;
+    padding: 0px;
+}
+
+nav li {
+    font-weight: 600;
+    margin: 16px 32px;
+    transition: 0.25s;
+    
+}
+
+li:hover {
+    font-weight: 600;
+    margin: 16px 32px;
+    color: var(--color-blue-dark);
+    transform: scale(1.2);
 }

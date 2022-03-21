@@ -1,0 +1,37 @@
+input[type=button] {
+    background: var(--button-gradient-blue);
+    color: #ffffff;
+    padding: 16px 32px;
+    border-radius: 20em;
+    border: none;
+    font-weight: 600;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.25s;
+}
+
+input[type=text]{
+    height: 40px;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 10px;
+    border: solid 2px var(--muted);
+}
+
+label{
+    color: var(--color-blue-dark);
+}
+
+header {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+    padding-right: 1em;
+    grid-gap: 10px;
+}

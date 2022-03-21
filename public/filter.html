@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/styles.css" rel="stylesheet">
+    <link href="styles/filter.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600;900&display=swap" rel="stylesheet">
+    <title>Mijn filter</title>
+</head>
+<body>
+    <main>
+        <nav>
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="">zoekresultaten</a></li>
+                <li><a href="filter.html">filter</a></li>
+            </ul>
+        </nav>
+        <header>
+           <h1>Filter maken</h1> 
+        </header>
+        <section>
+        <label for="filtername">Filter naam</label>
+        <input type="text" id="filtername">
+        <label for="fname">Welke huisdier zoekt je?</label>
+        <input type="button" id="filterHuisdierType" value="Hond">
+        <input type="button" id="filterHuisdierType" value="Kat">
+        <label for="fname">Welk geslacht wil je?</label>
+        <input type="button" id="filterHuisdierType" value="Mannetje">
+        <input type="button" id="filterHuisdierType" value="Vrouwtje">
+        <label for="leeftijd">Welke leeftijd wil je?</label>
+        <input type="range" id="leeftijd"    min="0" max="20">
+        </section>
+</body>
+</html>
