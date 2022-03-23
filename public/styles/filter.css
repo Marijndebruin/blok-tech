@@ -50,7 +50,7 @@ h1 {
     border-bottom: solid 5px var(--color-blue-dark);
 }
 
-section {
+form {
     display: flex;
     flex-direction: column;
     padding-left: 1em;
