@@ -1,6 +1,17 @@
-getDogPicture();
+// console.log('test')
 
-async function getDogPicture() {
-    const res = await fetch('https://dog.ceo/api/breeds/list/all');
-    const dog = await res.json();
-}
+// dogPicture()
+
+
+// // random dog foto api
+// async function dogPicture(){
+//   const response = await fetch('https://dog.ceo/api/breeds/image/random');
+//   const data = await response.json();
+//   console.log(data);
+//   eenfoto(data.message);
+// }
+
+// function eenfoto(images){
+//     document.getElementById("cardImage").innerHTML =`
+//     <img id="cardImage" src="${images[0]}" alt="foto">`
+// }

@@ -59,5 +59,9 @@ async function connectDB() {
   }
 }
 
-// random dog names api
-const dogNames = require('dog-names');
+app.get('/', async (req, res) => {
+
+  const ress = await fetch('https://dog.ceo/api/breeds/image/random');
+  const dogImage = await ress.json();
+  eenfoto (data.message);
+});
