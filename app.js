@@ -4,7 +4,7 @@ const app = express()
 const port = 3000
 
 // dotenv hieroor maak je een .env bestand en sla hier je gegevens voor de database in op.
-require('dotenv').config()
+const dotenv = require('dotenv').config()
 console.log(process.env) // remove this after you've confirmed it working
 
 // Database dingen
@@ -58,3 +58,6 @@ async function connectDB() {
       throw error;
   }
 }
+
+// random dog names api
+const dogNames = require('dog-names');
